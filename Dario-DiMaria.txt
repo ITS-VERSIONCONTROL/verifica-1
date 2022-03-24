@@ -1,0 +1,18 @@
+1. Cosa fa il comando 'git restore --staged <file>'? Spiega come funziona la staging area
+   il comando 'git restore --staged <file>' svolge l'operazione inversa alla 'add', ovvero rimuove dalla staging area.
+   la staging area è la zona temporanea con cui git prepara un commit, 
+      con "git add" facciamo passare un file dalla working dir alla staging area.
+
+2. Descrivi il comando 'git merge <branch>', spiegando come funziona la history, cosa sono i branch e cosa è la HEAD
+    il 'git merge <branch>' consiste nella 'fusione' tra due branch 
+        ed avviene spesso 'riportando' un branch di sviluppo sul suo branch di origine..
+    I branch sono una linea di sviluppo indipendente del progetto, 
+        cioè una versione dei file e delle cartelle che compongono il progetto. 
+        Un branch nasce a partire da un altro branch esistente e si sviluppa nel tempo in maniera indipendente, 
+        mantenendo traccia delle modifiche che vengono effettuate sui files.
+
+3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git pull'
+    Il repository è la struttura dati che contiene i meta-dati relativi all'insieme di file e cartelle di un progetto. 
+        Il repository può essere centralizzato su un singolo server (come nel caso di Subversion e CVS) 
+        oppure distribuito sulle macchine degli utenti (come in Git). Questi dati verranno poi archiviati sul file system.
+    Il comando git pull serve a scaricare il branch remoto e effettuare un merge.
