@@ -1,0 +1,35 @@
+    1. Cosa fa il comando 'git commit -m <commento>'? Spiega come funziona la staging area
+    2. Descrivi il comando 'git checkout -b <nuovo branch>', spiegando come funziona la history, cosa sono i branch e cosa è la HEAD
+    3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git branch -a'
+
+1) 
+comando 'git commit -m <commento>'
+Crea uno snapshot nell Local repository dei file che si trovano nella staging area, con il <commento>  
+
+La staging area: 
+Ci sono tre sezioni principali di un progetto Git: la directory Git, la working directory e la staging area
+La staging area è un file, generalmente contenuto nella Git directory, che memorizza informazioni su cosa 
+andrà a finire nel prossimo commit. A volte viene chiamata "indice". 
+Ogni file nella directory di lavoro (working directory) può trovarsi in uno di due stati: tracciato o non tracciato. 
+I file tracciati sono file che erano nell'ultimo snapshot; possono essere non modificati, modificati o staged. 
+I file non tracciati sono tutto il resto: tutti i file nella directory di lavoro che non erano nell'ultimo snapshot e non si trovano nella 
+staging area. Quando un file è staged, significa che un file è contrassegnato nella sua versione corrente per passare allo snapshot di 
+commit successivo.
+
+2) 
+comando 'git checkout -b <nuovo branch>'
+crea un nuovo ramo e passa al nuovo ramo
+
+Tutto in Git viene checksummed (non so come tradurlo) prima di essere archiviato e viene quindi indicato da tale checksum. 
+Il meccanismo utilizzato da Git per questo checksum è chiamato hash SHA-1. Come fa Git a conoscere lo SHA-1 dell'ultimo commit? 
+Usando un puntatore speciale chiamato HEAD che Git mantiene. Il file HEAD è un riferimento simbolico al ramo in cui ti trovi attualmente. 
+Un riferimento simbolico significa che, a differenza di un riferimento normale, generalmente non contiene un valore SHA-1 ma piuttosto un 
+puntatore a un altro riferimento. 
+Un ramo in Git è semplicemente un puntatore mobile leggero a uno dei commit. 
+
+
+3) 
+comando 'git branch -a'
+Restituisce un elenco di tutti i rami (locali e remote)
+
+I repository remoti sono versioni del progetto che sono ospitati su Internet o in rete da qualche parte
