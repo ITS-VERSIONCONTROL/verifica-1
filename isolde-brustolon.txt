@@ -1,0 +1,12 @@
+1. Cosa fa il comando 'git status'? Spiega come funziona la staging area
+   La staging area è divisa in 3 parti: History (repository), Staging Area (index) e Worgkin Directory che è la zona temporanea con cui git prepara un commit.
+   Con 'git statu' si visualizza lo stato attuale del repository
+
+2. Descrivi il comando 'git checkout <branch>', spiegando come funziona la history, cosa sono i branch e cosa è la HEAD
+   Con 'git checkout <branch> ci si sposta su un altro branch, allineando lo stato della working directory e quella del branch.
+   La History mostra lo storico delle modifiche apportate con i relativi id di chi ha effettuato le modifiche e quindi crea un grafo.
+   La HEAD è un puntatore, una specie di "freccina" che rappresenta il nostro punto di vista all'interno del repository; punta a un branch. 
+
+3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git clone <remote repository>'
+   Con 'git clone <remote repository> viene clonato il repo situato nel <repo> nella macchina locale. Il repo originale può essere situato in un file system locale o in una macchina remota. 
+   Un repository remoto è una copia del repository situato in un server remoto, utilizzato per rendere possibile la collaborazione tra più soggetti. 
