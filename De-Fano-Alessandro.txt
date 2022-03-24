@@ -1,0 +1,16 @@
+Cosa fa il comando 'git add '?
+-GIT ADD : aggiunge un file alla "stage area".
+Spiega come funziona la staging area
+-La staging Area è la zona temporanea con cui git prepara un commit. Ci sono 3 aree diverse: History, Staging Area, e la Working Directory
+Descrivi il comando 'git branch '
+-GIT BRANCH : mostra tutti i branch creati, e quello indicato con l * è quello selezionato al momento in cui stiamo lavorando
+spiegando come funziona la history
+-La history mostra la storia delle modifiche apportate con i relativi id di chi ha effettuato le modifiche, creando così un grafo
+osa sono i branch 
+-Il branch è un'etichetta ad un commit
+cosa è la HEAD
+-Il puntatore HEAD è una "freccina" che rappresenta il nostro punto di vista all'interno del repository: punta ad un branch (che a sua volta punta ad un commit)
+Cos'è un repository remoto?
+-GIT FETCH : serve per allineare il repository locale con origin ma non effettua nessuna modifica nella working area
+Descrivi cosa fa il comando 'git fetch'
+-Il repository remoto è una copia del repository situato in un server remoto è utilizzato per rendere possibile la collaborazione tra soggetti
