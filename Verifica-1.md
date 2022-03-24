@@ -1,8 +1,8 @@
-Nome:
-Cognome:
+Nome: Isolde 
+Cognome: Brustolon
 
-Fila:
-Postazione:
+Fila: 1
+Postazione: 1
 
 
 # VERIFICA: Fondamenti di version control
