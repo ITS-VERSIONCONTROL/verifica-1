@@ -1,8 +1,8 @@
-Nome:
-Cognome:
+Nome: Nemanja
+Cognome: Gajicic
 
-Fila:
-Postazione:
+Fila: 1 
+Postazione: 4
 
 
 # VERIFICA: Fondamenti di version control
