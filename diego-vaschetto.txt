@@ -1,0 +1,20 @@
+1. Cosa fa il comando 'git add <file>'? Spiega come funziona la staging area
+
+Con il comando "git add <file>" facciamo passare un file dalla working dir alla staging area. Staging area è una fotografia dei file creati nella working area
+dunque è la zona temporanea con cui git prepara un commit.
+
+
+2. Descrivi il comando 'git merge <branch>', spiegando come funziona la history, cosa sono i branch e cosa è la HEAD
+
+git merge <branch> permette di incorporare dunque unire le modifiche del branch nominati <branch> nel ramo corrente.  
+Git permette di archiviare la history come un grafico di snapshot all'interno del repo. Dunque farà delle istantanee
+chiamate commit, le quali possono avere più genitori, dunque creando una cronologia la quale può essere recuperata tramite gli SHA
+con cui posso passare a commit precedenti. 
+Un branch rappresenta una linea di sviluppo la quale viene puntata da HEAD con il comando git checkout.
+HEAD è un riferimento il quale punta al ramo locale in cui ti trovi attualmente.
+
+
+3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git diff <branch>'
+
+I repository remoti sono repository ospitati su un server accessibile a tutti i membri del team, hostati in una rete locale o su internet. 
+git diff <branch> permette di confrontare, dunque vedere le differenze, l'attuale branch su cui ci si trova con il branch nominato.
