@@ -1,0 +1,19 @@
+1. Cosa fa il comando 'git reset HEAD~1'? Spiega come funziona la staging area
+'git reset HEAD~1' 
+git reset HEAD~1 cancella l’ultimo commit e ti fa tornare indietro a quello precedente
+Il numero dopo la tilde indica il numero di commit 
+Staging area è la zona temporanea con cui git prepara un commit.
+
+2. Descrivi il comando 'git log', spiegando come funziona la history, cosa sono i branch e cosa è la HEAD
+
+Il comando git log mostra un elenco di tutti i commit effettuati su un repository. 
+Puoi vedere l'hash di ogni commit Git, il messaggio associato a ogni commit e altri metadati. 
+Questo comando è utile per visualizzare la cronologia di un repository.
+I branch sono dei rami/etichette indipendenti dove si puo lavorare 
+La HEAD è un puntatore che indica esattamente dove stiamo guardando 
+
+3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git push'
+I repository remoti sono versioni di progetti che sono ospitati su una rete da qualche parte.
+“git push” aggiorna i riferimenti remoti insieme agli oggetti associati. 
+Aggiorna i riferimenti remoti utilizzando i riferimenti locali, 
+inviando gli oggetti necessari per completare i riferimenti forniti.
