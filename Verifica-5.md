@@ -27,8 +27,6 @@ Partendo dal branch 'develop':
 - creare un nuovo file chiamato 'documento.txt' ed inserire il seguente testo:
 
 ```
-Capitolo 5.
-If you could do that, that would be great anti-pattern, we've bootstrapped the model. Anti-pattern drive awareness to increase engagement knowledge is power. Are we in agreeance to be inspired is to become creative, innovative and energized we want this philosophy to trickle down to all our stakeholders, nor knowledge is power nor this is meaningless, let's prioritize the low-hanging fruit yet disband the squad but rehydrate as needed nor even dead cats bounce. Action item downselect market-facing. Show pony table the discussion sorry i was triple muted. Currying favour we need to follow protocol optimize for search helicopter view. 
 ```
 
 - aggiungere il file alla staging area
